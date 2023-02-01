@@ -14,4 +14,4 @@ require("ron.plugins.lsp.null-ls")
 require("ron.plugins.autopairs")
 require("ron.plugins.treesitter")
 require("ron.plugins.gitsigns")
-
+require("ron.plugins.whichkey-setup")

@@ -186,6 +186,11 @@ _G.packer_plugins = {
     path = "/home/ron/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  ["nvim-whichkey-setup.lua"] = {
+    loaded = true,
+    path = "/home/ron/.local/share/nvim/site/pack/packer/start/nvim-whichkey-setup.lua",
+    url = "https://github.com/AckslD/nvim-whichkey-setup.lua"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/ron/.local/share/nvim/site/pack/packer/start/packer.nvim",
