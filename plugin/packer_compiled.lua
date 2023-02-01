@@ -240,6 +240,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ron/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  ["vim-which-key"] = {
+    loaded = true,
+    path = "/home/ron/.local/share/nvim/site/pack/packer/start/vim-which-key",
+    url = "https://github.com/liuchengxu/vim-which-key"
   }
 }
 

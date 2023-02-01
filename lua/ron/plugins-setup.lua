@@ -99,7 +99,10 @@ return packer.startup(function(use)
 
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
-	use("AckslD/nvim-whichkey-setup.lua")
+	use({
+		"AckslD/nvim-whichkey-setup.lua",
+		requires = { "liuchengxu/vim-which-key" },
+	})
 
 	if packer_bootstrap then
 		require("packer").sync()
