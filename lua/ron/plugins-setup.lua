@@ -104,11 +104,10 @@ return packer.startup(function(use)
 		requires = { "liuchengxu/vim-which-key" },
 	})
 
--- ToggleTerm 
-use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-  require("toggleterm").setup()
-end}
-  
+	-- LazyGit
+	use("kdheepak/lazygit.nvim")
+	-- ToggleTerm
+	use("akinsho/toggleterm.nvim")
 	if packer_bootstrap then
 		require("packer").sync()
 	end

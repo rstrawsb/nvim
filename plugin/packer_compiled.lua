@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/ron/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/home/ron/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/home/ron/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -210,6 +215,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ron/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/home/ron/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["typescript.nvim"] = {
     loaded = true,
